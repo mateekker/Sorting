@@ -12,8 +12,8 @@ namespace Sorting
         {
             Console.WriteLine("Sorting");
 
-            var arr = new int[10];
-            var rnd = new Random();
+            int[] arr = new int[10];
+            Random rnd = new Random();
             for (var i = 0; i < arr.Length; i++)
             {
                 arr[i] = rnd.Next(100);
